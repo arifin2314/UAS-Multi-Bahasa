@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="22dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txJudul"
+            android:layout_marginBottom="20dp"
+            android:text="@string/wisata_judul"
+            android:textSize="19dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/re3"
+            android:scaleType="fitXY"
+            android:id="@+id/gambarHewan"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txJenis"
+            android:layout_marginBottom="15dp"
+            android:text="@string/jenis_wisata"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txAsal"
+            android:text="@string/asal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txDeskripsi"
+            android:layout_marginTop="8dp"
+            android:text="@string/deskripsi" />
+
+        <Button
+            android:id="@+id/btn_back_to_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:text="@string/kembali" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
